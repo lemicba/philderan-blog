@@ -1,5 +1,5 @@
 import { createClient } from 'contentful';
-import NotesCards from '../components/notesCards';
+import NotesCards from '../components/NotesCards';
 
 export async function getStaticProps() {
   const client = createClient({
